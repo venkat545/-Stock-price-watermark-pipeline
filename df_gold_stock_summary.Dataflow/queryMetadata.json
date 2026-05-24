@@ -1,0 +1,33 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "df_gold_stock_summary",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "silver_moving_averages": {
+      "queryId": "bfe17c10-5de8-4909-9e87-f9f90040defe",
+      "queryName": "silver_moving_averages"
+    },
+    "silver_moving_averages_DataDestination": {
+      "queryId": "75b7c54d-0695-4a5e-a5d2-48e9c255697b",
+      "queryName": "silver_moving_averages_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"2fe37427-5bc6-444f-951a-7ebb909c74c0\",\"DatasourceId\":\"d15c10a8-fff5-42e8-b117-8419f5504c86\"}"
+    },
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"2fe37427-5bc6-444f-951a-7ebb909c74c0\",\"DatasourceId\":\"d9266074-1985-43ce-8b7a-168a6d84429f\"}"
+    }
+  ]
+}
