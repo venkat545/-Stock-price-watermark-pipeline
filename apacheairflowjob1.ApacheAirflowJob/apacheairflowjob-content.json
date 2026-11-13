@@ -16,7 +16,7 @@
         "secrets": []
       },
       "computeProperties": {
-        "computePool": "CustomPool",
+        "computePool": "CustomPool1",
         "computeSize": "Small",
         "enableAutoscale": false,
         "enableAvailabilityZones": true,
