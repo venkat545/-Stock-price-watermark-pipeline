@@ -1,12 +1,14 @@
 CREATE TABLE [dbo].[gold_stock_monthly_summary ] (
-
-	[ticker] varchar(8000) NULL, 
-	[year] bigint NULL, 
-	[month] bigint NULL, 
-	[avg_close] float NULL, 
-	[max_close] float NULL, 
-	[min_close] float NULL, 
-	[avg_volume] float NULL, 
-	[avg_return_pct] float NULL, 
-	[trading_days] bigint NULL
+    [ticker]         VARCHAR (8000) NULL,
+    [year]           BIGINT         NULL,
+    [month]          BIGINT         NULL,
+    [avg_close]      FLOAT (53)     NULL,
+    [max_close]      FLOAT (53)     NULL,
+    [min_close]      FLOAT (53)     NULL,
+    [avg_volume]     FLOAT (53)     NULL,
+    [avg_return_pct] FLOAT (53)     NULL,
+    [trading_days]   BIGINT         NULL
 );
+
+
+GO

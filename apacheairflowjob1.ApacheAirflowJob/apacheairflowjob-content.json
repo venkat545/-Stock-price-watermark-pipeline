@@ -20,7 +20,8 @@
         "computeSize": "Small",
         "enableAutoscale": false,
         "enableAvailabilityZones": true,
-        "extraNodes": 0
+        "extraNodes": 0,
+        "vnetEnabled": false
       }
     }
   }

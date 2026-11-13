@@ -1,8 +1,10 @@
 CREATE TABLE [dbo].[watermark_control] (
-
-	[ticker] varchar(20) NOT NULL, 
-	[last_load_date] date NOT NULL, 
-	[last_load_ts] datetime2(6) NOT NULL, 
-	[total_rows] bigint NULL, 
-	[status] varchar(20) NULL
+    [ticker]         VARCHAR (20)  NOT NULL,
+    [last_load_date] DATE          NOT NULL,
+    [last_load_ts]   DATETIME2 (6) NOT NULL,
+    [total_rows]     BIGINT        NULL,
+    [status]         VARCHAR (20)  NULL
 );
+
+
+GO
